@@ -32,7 +32,7 @@ int main()
     line(350,320,400,300);
     line(350,320,300,380);
     setcolor(LIGHTBLUE);
-    line(275,360,150,500);
+    line(275,360,190,455);
     line(275,360,375,425);
     line(375,425,550,425);
     line(550,425,650,475);
@@ -144,9 +144,9 @@ int main()
     circle(300,378,4);
     settextstyle(0,VERT_DIR,2);
     outtextxy(300,390,"Kirti Nagar");
-    circle(275,360,4);
+    /*circle(150,500,4);
     settextstyle(0,VERT_DIR,2);
-    outtextxy(150,510,"Rajouri Garden");
+    outtextxy(150,510,"Rajouri Garden");*/
     circle(190,455,4);
     settextstyle(0,VERT_DIR,2);
     outtextxy(190,475,"Ramesh Nagar");
@@ -192,7 +192,7 @@ int main()
     outtextxy(190,100,"Shivaji Park");
     circle(280,320,4);
     settextstyle(0,VERT_DIR,1);
-    outtextxy(280,220,"Pinjabi Bagh");
+    outtextxy(280,210,"Punjabi Bagh");
 
     //table of all the places
     setcurrentwindow(window2);
@@ -372,8 +372,8 @@ int main()
     cord[32].y=200;
     cord[33].x=350;
     cord[33].y=320;
-    cord[34].x=275;
-    cord[34].y=360;
+    cord[34].x=280;
+    cord[34].y=320;
     cord[35].x=190;
     cord[35].y=320;
     cord[36].x=100;
